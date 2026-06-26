@@ -8,5 +8,6 @@ void sayHelloToGit()
 int main()
 {
 	
+	sayHelloToGit();
 
 }
