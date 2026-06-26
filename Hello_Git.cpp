@@ -1,10 +1,10 @@
 #include <iostream>
+#include "HelloClass.h"
 
 void sayHelloToGit()
 {
-	double PI = 3.141592 ;
-	std::cout << "Hello Git!";
-	std::cout << " | pi = " << PI << std::endl;
+	HelloClass helloToGit("Hello Git!", 5);
+	helloToGit.sayHello();
 }
 
 int main()
