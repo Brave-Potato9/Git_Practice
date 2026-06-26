@@ -1,6 +1,12 @@
 #include <iostream>
 
+void sayHelloToGit()
+{
+	std::cout << "Hello Git!";
+}
+
 int main()
 {
-	std::cout << "Hello Git!\n";
+	
+
 }
